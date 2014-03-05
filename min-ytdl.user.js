@@ -9,10 +9,22 @@
 // @updateURL https://github.com/stuartdb/min-ytdl/raw/master/min-ytdl.meta.js
 // @run-at document-end
 // ==/UserScript==
-
-function find_url() {
+console.log("script start");
+function find_id() {
     "use strict";
-    var canonical_url;
+    var i = 0,
+        url = "unknown";
+
+    url = document.URL;
+    if (url.substring(0,5) == "https") {
+        url = url.substring(0,43);
+    } else {
+        url = url.substring(0,42);
+    }
+
+    console.log(url);
+    return url;
 }
 
-find_url();
+console.log(find_id());
+console.log("script end");
