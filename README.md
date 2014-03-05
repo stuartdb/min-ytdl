@@ -1,6 +1,8 @@
 min-ytdl
 ==============
 
+![min-ytdl screenshot](https://github.com/stuartdb/min-ytdl/raw/master/img/min-ytdl-shot.png)
+
 A userscript to place a youtube-dl command and video link on youtube video pages.
 
 Installation
