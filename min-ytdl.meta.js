@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name min-ytdl
-// @version 0.0
+// @version 0.1
 // @namespace https://github.com/stuartdb/min-ytdl
 // @author Stuart Baker
 // @description Places a youtube-dl command with video link on youtube video pages
